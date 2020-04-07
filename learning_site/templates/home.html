@@ -1,3 +1,7 @@
-<h1>Welcome!</h1>
-<p>Check out our <a href='/courses'>courses!</a></p>
-<p>If you are an administrator, click <a href='/admin'>here</a>, to add or change courses.</p>
+{% extends 'layout.html' %}
+{% block title %}Home | Treehouse{% endblock %}
+{% block content %}
+<center><h1 class='title'>Welcome!</h1></center>
+<center><p class='content'>Check out our <a href='/courses' class='link'>courses!</a></p></center>
+<center><p class='content'>If you are an administrator, click <a href='/admin' class='link'>here</a>, to add or change courses.</p></center>
+{% endblock %}

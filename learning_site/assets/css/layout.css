@@ -1,0 +1,25 @@
+.title {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+    display: table-cell;
+    margin-top: 50px;
+}
+.html {
+    background-color: white;
+}
+.content {
+    background-color: black;
+    color:white;
+    display:table-cell;
+    text-align: center;
+    padding:10px;
+    margin-top: 70px;
+    border-radius: 10%;
+}
+.link {
+    color: cyan;   
+}
