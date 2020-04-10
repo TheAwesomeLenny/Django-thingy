@@ -29,7 +29,9 @@
     border-radius: 50%;
     border: 10px solid lime;
     transition: all .5s;
+    margin-top: 150px;
 }
 .logo:hover {
-    transform: scale(2) rotate(360deg);   
+    transform: scale(1.8) rotate(720deg); 
+    filter: invert(72%) sepia(100%) saturate(2218%) hue-rotate(356deg) brightness(96%) contrast(114%);
 }
