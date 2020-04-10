@@ -1,5 +1,9 @@
+{% extends 'layout.html' %}
+{% block title %}Courses | Treehouse{% endblock %}
+{% block content %}
 <a href='/'>|Back|</a>
 {% for course in courses %}
-<h1>{{course.title}}</h1>
-{{course.description}}
+<center><a href='/courses/{{ pk }}'><h1 class='title'>{{course.title}}</h1></a></center>
+<center><p class='content'>{{course.description}}</p></center>
 {% endfor %}
+{% endblock %}
