@@ -3,7 +3,7 @@
 {% block content %}
 <a href='/'>|Back|</a>
 {% for course in courses %}
-<center><a href='/courses/{{ pk }}'><h1 class='title'>{{course.title}}</h1></a></center>
+<center><a href='/courses/{{ course.pk }}'><h1 class='title'>{{course.title}}</h1></a></center>
 <center><p class='content'>{{course.description}}</p></center>
 {% endfor %}
 {% endblock %}

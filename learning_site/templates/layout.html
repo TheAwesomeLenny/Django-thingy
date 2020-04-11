@@ -5,5 +5,10 @@
     <title>{% block title %}{% endblock %}</title>
     <link rel='stylesheet' href='{% static 'css/layout.css' %}'>
 </head>
-    <body>{% block content %}{% endblock %}</body>
+    <body>
+        <nav>
+            <a href='{% url 'views.hello_world' %}'>|Home|</a>
+        </nav>
+        {% block content %}{% endblock %}
+    </body>
 </html>
