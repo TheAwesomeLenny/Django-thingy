@@ -7,6 +7,7 @@
     text-align: center;
     display: table-cell;
     margin-top: 50px;
+    border: 5px double gold;
 }
 .html {
     background-color: cyan;
@@ -20,8 +21,8 @@
     margin-top: 70px;
     border-radius: 10%;
 }
-.link {
-    color: cyan;   
+a {
+    color: chocolate;   
 }
 .logo {
     width: 300px;
